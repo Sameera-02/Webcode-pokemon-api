@@ -1,0 +1,29 @@
+body
+{
+    background-color: rgb(52, 46, 46);
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    gap:1rem;
+}
+.container
+{
+    background-color: rgb(237, 228, 228);
+    max-width: 15rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px rgb(22, 11, 11);
+
+}
+
+.info
+{
+    padding:1rem;
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.info span{
+    font-weight: bold;
+    color: brown;
+
+}
